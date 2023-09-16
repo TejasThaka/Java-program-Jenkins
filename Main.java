@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Hello");
         System.out.println("----------------------");
         System.out.println("========================");
-        System.out.println("Hi this side tejas");
+        Student s = new Student();
+        s.sayHello();
     }
 }
