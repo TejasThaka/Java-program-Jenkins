@@ -1,8 +1,7 @@
-public class Student {
-    System.out.println("this is tejas side");
+class Student {
+
+    public void addStudent() {
+        System.out.println("This side object from addStudent method");
     }
 
-    public void sayHello() {
-        System.out.println("this side tejas..hii");
-    }
 }

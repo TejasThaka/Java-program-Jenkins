@@ -5,9 +5,9 @@ public class Main {
         System.out.println("Output from java application");
         System.out.println("----------------------------");
         System.out.println("Hello");
-        System.out.println("----------------------");
         System.out.println("========================");
-        Student s = new Student();
-        s.sayHello();
+        Student s1 = new Student();
+        s1.addStudent();
+
     }
 }
