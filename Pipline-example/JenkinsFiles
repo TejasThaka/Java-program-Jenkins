@@ -1,0 +1,18 @@
+pipeline{
+
+    agent any
+    
+    stages{
+          
+           stages("Commpile"){
+              
+              sh 'javac Test.java'
+           }
+
+           stages("Run"){
+
+             sh 'java Test'
+           }
+
+    }
+}

@@ -1,6 +1,6 @@
 public class Armstrong {
 	public static void main(String[] args) {
-		int num = 30;
+		int num = 301;
 		int temp = num;
 		int count = 0;
 
